@@ -1,0 +1,522 @@
+/*Header css*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	margin: 0 auto;
+	width: 84.6%;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+body p,h1,h4,h3,li{
+	font-family: "Poppins", sans-serif;
+}
+body h1{
+	font-size: 36px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	color: black;	
+}
+body p{
+	font-size: 14px;
+	color: #777;
+}
+.header{
+	background-color: #222222e6;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.logo{
+	/*border: 1px solid black;*/
+	float: left;
+	margin-top: 15px;
+
+}
+.nav{
+	/*border: 1px solid black;*/
+	float: right;
+	margin-top: 25px;
+	margin-right: 0px;
+	padding-right: 60px;
+}
+.logo img{
+	width: 60px;
+}
+.nav ul{
+	list-style: none;
+}
+.nav ul li{
+	float: left;
+	padding-right: 30px;
+}
+.nav ul li a{
+	color: #fff;
+	font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*Banner css*/
+
+.banner{
+	height: 600px;
+	/*background-image: url(../images/banner1.jpg);
+	background-position: center;
+	background-size: cover;*/
+}
+.banner img{
+	width: 100%;
+}
+
+/*Top Rated section*/
+
+.top_rated_wrapper{
+	padding: 120px 0px;
+}
+.top_rated{
+	text-align: center;
+	padding-bottom: 60px;
+}
+.top_rated h1{
+	margin-bottom: 10px;
+	font-size: 40px !important;
+
+}
+.top_rated p{
+	margin-bottom: 10px;
+	color: #847977;
+
+}
+.top_rated .view{
+	margin-top: 30px;
+}
+.top_rated .view a{
+	background-color: #f42f2c;
+   	padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/*Top rated dishes images */
+
+.dishes_imgs{
+
+}
+.dishes_imgs .tawafish{
+	float: left;
+	width: 33.33%;
+	padding: 0px 15px;
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+}
+.tawafish_img{
+	height: 200px;
+	overflow: hidden;
+
+}
+.tawafish h4{
+	padding:20px 0px;
+	font-size: 18px;
+	font-weight: 500 !important;
+	color: #222;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.tawafish h4:hover{
+	color: #f42f2c;
+	cursor: pointer;
+}
+.tawafish_img img{
+	width: 100%;
+	/*height: 100%;*/
+	transition: .7s;
+}
+.tawafish_img:hover img{
+	transform: scale(1.3);
+	cursor: pointer;
+}
+
+/*Video Secton*/
+
+.video_sec{
+	 height: 558px;
+	background-image: url(../images/video-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+    padding: 200px 0px;
+    box-sizing: border-box;
+
+}
+.play_btn h3{
+	font-size: 24px;
+    color: white;
+    padding: 15px 0px;
+    font-weight: bold;
+}
+
+/*Features section*/
+
+.features_wrap{
+	padding-top: 100px;
+}
+.features{
+	border-bottom: 1px solid #eee;
+    padding-bottom: 100px;
+
+}
+.features .feature1{
+	width: 25%;
+	float: left;
+	padding: 0px 25px;
+	box-sizing: border-box;
+}
+.feature1 h4{
+	padding: 20px 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.feature1 p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 400 !important;
+	text-align: left;
+
+}
+
+/*Menu Section*/
+
+.menu_top_sec{
+	text-align: center;
+
+}
+.menu_top_sec h1{
+	    color: black;
+	    font-weight: bold;
+	    margin-bottom: 10px;
+}
+.menu_top_sec p{
+	
+	margin-bottom: 15px;
+}
+.menu_pic1{
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	padding: 0px 5px;
+}
+.menu_pic1 img{
+	width: 100%;
+}
+
+/*Special Food section*/
+
+.special_food_wrap{
+	border: 1px solid #00000020;
+	background-color: #f8f9fa;
+	border-radius: 5px;
+	padding: 48px;
+	margin-top: 48px;
+}
+.special_food_title{
+	text-align: center;
+}
+
+.special_food_title p{
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	color: #777;
+	font-weight: 300;
+	margin-bottom: 16px;
+}
+hr{
+	border: 0px;
+	border-top: 1px solid #0000001a;
+	margin-top: 8px;
+	margin-bottom: 48px;
+}
+.special_food_pics{
+	margin-bottom: 15px;
+}
+.special_food_pic1{
+	float: left;
+	width: 33.33%;
+	box-sizing: border-box;
+	padding: 0px 45px;
+}
+.special_food_pic1 img{
+	width: 100%;
+	padding: 4px;
+	border: 1px solid #dee2e6;
+	background-color: white;
+	border-radius: 4px;
+}
+/*chefs section*/
+
+.chef_wrap{
+	padding: 120px 0px;
+	background-color: #f9f9ff;
+}
+.chefs_title_sec{
+	text-align: center;
+	padding-bottom: 70px;
+}
+.chef_pic{
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	padding:0px 15px;
+}
+.chef_pic img{
+	width: 100%;
+}
+.chef_names{
+	margin-top: 30px;
+	text-align: center;
+}
+.chef_names h4{
+    color: #222;
+    font-weight: 600;
+    font-size: 18px;
+}
+.chef_names p{
+	margin-bottom: 16px;
+}
+
+ /*Map and Contact section */
+
+ .container_fluid{
+ 	padding: 0px 15px;
+ }
+ .map_sec{
+
+ 	width: 48%;
+ 	height: 550px;
+ 	float: left;
+ }
+ .contact_sec{
+ 	width: 31.8%;
+ 	float: left;
+ 	margin-left: 80px;
+ 	padding: 100px 0px;
+ 	box-sizing: border-box;
+ }
+ .contact_sec form{
+ 	font-size: inherit;
+ 	color: #777;
+ 	width: 100%;
+ 	box-sizing: border-box;
+ }
+ .contact_sec form label{
+ 	display: block;
+    margin-top: 10px;
+
+ }
+ .contact_sec form div{
+ 	box-sizing: border-box;
+ }
+ .contact_sec textarea{
+    border: 1px solid rgba(111, 117, 152, 0.3);
+ 	box-sizing: border-box;
+ 	display: block;
+    padding: 15px 25px;
+    color: #777;
+    height: 150px;
+    resize: none;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+ }
+ .contact_sec h3{
+ 	font-size: 24px;
+ 	color: black;
+ 	text-align: center;
+ }
+ .contact_sec form input{
+ 	    border: 1px solid rgba(111, 117, 152, 0.3);
+    line-height: 48px;
+    width: 100%;
+    display: block;
+    padding: 0 25px;
+    color: #777;
+    box-sizing: border-box;
+    margin-top: 10px;
+ }
+ .contact_sec form button{
+ 	font-family: inherit;
+ 	background-color: #f42f2c;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+ }
+
+ /*footer*/
+
+ .footer{
+ 	background-color: #222;
+ 	padding: 120px 0px;
+ }
+.footer_top_sec1{
+	float: left;
+	width: 25%;
+	padding: 0px 15px;
+	box-sizing: border-box;
+}
+.footer_top_sec1 h4{
+	padding-bottom: 30px;
+	color: #fff;
+	font-size: 18px;
+}
+.footer_top_sec1 p{
+	font-size: 14px;
+	font-weight: 300;
+	color: #777;
+	text-align: left;
+	margin-bottom: 16px;
+	line-height: 1.625em;
+}
+.contact{
+	width: 33.33%;
+}
+.contact .number{
+    color: #f42f2c;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+.links{
+	width: 25%;
+}
+ul{
+	list-style: none;
+}
+ ul a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+.icons{
+	width: 15%;
+}
+.icons h4{
+	padding-bottom: 20px;
+}
+.icons i{
+	padding: 7px;
+	font-size: 15px;
+	transition: .7s;
+	overflow: hidden;
+
+}
+.icons i:hover{
+	background-color: #f42f2c;
+	transform: scale(1.8);
+}
+
+.footer_bottom_sec{
+	padding:40px 15px;
+}
+.footer_bottom_sec p a{
+	    color: #f42f2c;
+	    text-decoration: none;
+}
+
+
+/*Media Queries for responsiveness*/
+@media only screen and (max-width: 1210px){
+	.contact .number{
+		font-size: 22px;
+	}
+}
+@media only screen and (max-width: 1130px){
+	.contact .number{
+		font-size: 19px;
+	}
+}
+@media only screen and (max-width: 1000px){
+	.contact .number{
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 800px){
+	.contact .number{
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 700px){
+
+	.dishes_imgs .tawafish3{
+		width: 100%;
+		/*padding: 0px 50px;*/
+
+	}
+	.dishes_imgs .tawafish1{
+		width: 50%;
+		/*padding-right: 25px;*/
+		/*float: left;*/
+	}
+	.dishes_imgs .tawafish2{
+		width: 50%;
+		/*padding-left: 25px;*/
+		/*float: right;*/
+	}
+	.chef_pics_sec .chef_pic{
+		width: 50%;
+	}
+	.contact .number{
+		font-size: 11px;
+	}
+	/*.features .feature1{
+		width: 50%;
+	}
+	.features .feature3{
+		padding-top: 30px;
+	}
+	.features .feature4{
+		padding-top: 30px;
+	}*/
+
+}
+@media only screen and (max-width: 700px){
+	.contact .number{
+		font-size: 9px;
+	}
+
+}
+@media only screen and (max-width: 530px){
+
+	.dishes_imgs .tawafish{
+		width: 100%;
+	}
+	
+	.chef_pics_sec .chef_pic{
+		width: 100%;
+	}
+	.features .feature1{
+		width: 100%;
+
+	}
+	.features .feature2{
+		padding-top: 30px;
+	}
+	
+}
